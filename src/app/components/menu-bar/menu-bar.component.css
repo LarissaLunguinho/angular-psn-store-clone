@@ -1,11 +1,20 @@
+.sony-bar__container{
+	display: flex;
+	justify-content: end;
+
+
+	background-color: #000;
+	width: 100%;
+	height: 30px;
+}
 .menu-bar__container{
 	display: flex;
 	flex-direction: row;
 	position: fixed;
-	z-index: 999;
+	z-index: 990;
 	background-color: #ffffff;
 	width: 100%;
-	height: 40px;
+	height: 60px;
 	box-shadow: 0px 0px 6px 0px rgba(0,0,0,0.5);
 }
 
@@ -17,8 +26,7 @@
 
 .menu-bar__item{
   display: flex;
-  margin:auto;
-  align-items: center;
+	align-items: center;
 }
 
 .menu-bar__item > ul{
@@ -39,6 +47,6 @@
 }
 
 .menu-bar__item > ul > li > a:hover {
-	color: blue;
+	color: rgb(51, 51, 248);
 	font-weight: 600;
 }
